@@ -18,14 +18,15 @@ section {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin: 5% 0;
 }
 
 section .profile-pic {
-  height: 300px;
-  width: 230px;
+  height: 400px;
+  width: 300px;
   -webkit-box-shadow: 5px 15px 25px black;
           box-shadow: 5px 15px 25px black;
-  margin: 10% 5%;
+  margin: 5%;
 }
 
 section .about-me {
@@ -34,17 +35,16 @@ section .about-me {
   -webkit-box-direction: normal;
       -ms-flex-direction: coloumn;
           flex-direction: coloumn;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 40%;
-  height: 40%;
-  margin: 10% 0 0 0;
+  height: 100%;
 }
 
 section .about-me .greeting {
   text-align: left;
   margin: 0 0 5% 0;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 section .about-me .greeting h1 {
@@ -64,14 +64,61 @@ section .about-me .social {
 section .about-me .social .logo {
   width: 7%;
   height: 7%;
-  border-radius: 15%;
+  min-width: 50px;
+  min-height: 50px;
+  border-radius: 20%;
   margin: 2% 2% 0 0;
+}
+
+h1 {
+  font-size: xx-large;
+}
+
+.blog-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: spcae-between;
+      -ms-flex-pack: spcae-between;
+          justify-content: spcae-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: #d6e7ad;
+}
+
+.blog-container .blog {
+  margin: 2%;
+  width: 700px;
+  height: 600px;
+  overflow: auto;
+  border: 1px solid #009999;
+}
+
+.blog-container .blog figure > img {
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin: 3% auto;
+}
+
+.blog-container .blog h2, .blog-container .blog h5, .blog-container .blog p {
+  margin: 3%;
 }
 
 * {
   margin: 0;
   padding: 0;
   font-family: Open Sans, sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: Balsamiq Sans, cursive;
+  color: #009999;
+  font-weight: bold;
 }
 
 .nav-header > nav {
@@ -95,8 +142,8 @@ section .about-me .social .logo {
 .nav-header > nav a {
   text-decoration: none;
   /* remove default underline <a> */
-  font-weight: bold;
   font-size: 120%;
+  font-weight: bold;
   color: #ffffff;
   margin: 0 1%;
 }

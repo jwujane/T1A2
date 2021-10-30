@@ -1,0 +1,43 @@
+h1 {
+    font-size: xx-large;
+}
+
+.blog-container {
+    display: flex; 
+    justify-content: spcae-between; 
+    flex-direction: row;
+    flex-wrap: wrap; 
+    background:rgb(214, 231, 173);
+    
+
+    .blog {
+        margin: 2%;
+        width: 700px;
+        height: 600px;
+        overflow: auto;
+        border: 1px solid #009999;
+        
+        figure > img {
+            width: 50%;
+            height: 50%;
+            display: block; 
+            margin: 3% auto; 
+        }
+
+        h2, h5, p {
+            margin: 3%;
+        }
+    }
+}
+
+
+
+
+
+
+// @media screen and (min-width: 600px) {
+//  .blog {
+//     width: 100px;
+//     height: 400px;
+//  }
+// }
