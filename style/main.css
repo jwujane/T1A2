@@ -71,7 +71,7 @@ section .about-me .social .logo {
 }
 
 h1 {
-  font-size: xx-large;
+  font-size: 3em;
 }
 
 .blog-container {
@@ -87,7 +87,6 @@ h1 {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background: #d6e7ad;
 }
 
 .blog-container .blog {
@@ -95,7 +94,8 @@ h1 {
   width: 700px;
   height: 600px;
   overflow: auto;
-  border: 1px solid #009999;
+  border: none;
+  background: #e8fdfa;
 }
 
 .blog-container .blog figure > img {
@@ -122,6 +122,7 @@ h1, h2, h3 {
 }
 
 .nav-header > nav {
+  /* display: block; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -137,6 +138,9 @@ h1, h2, h3 {
       flex-wrap: wrap;
   background-color: #009999;
   height: 8vh;
+  /* position: fixed; 
+    top: 0; 
+    width: 100%; */
 }
 
 .nav-header > nav a {

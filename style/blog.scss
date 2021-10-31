@@ -1,5 +1,7 @@
+
 h1 {
-    font-size: xx-large;
+    font-size: 3em;
+    
 }
 
 .blog-container {
@@ -7,7 +9,6 @@ h1 {
     justify-content: spcae-between; 
     flex-direction: row;
     flex-wrap: wrap; 
-    background:rgb(214, 231, 173);
     
 
     .blog {
@@ -15,8 +16,9 @@ h1 {
         width: 700px;
         height: 600px;
         overflow: auto;
-        border: 1px solid #009999;
-        
+        border: none;
+        background:#e8fdfa;
+
         figure > img {
             width: 50%;
             height: 50%;

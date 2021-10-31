@@ -1,5 +1,5 @@
 h1 {
-  font-size: xx-large;
+  font-size: 3em;
 }
 
 .blog-container {
@@ -15,7 +15,6 @@ h1 {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background: #d6e7ad;
 }
 
 .blog-container .blog {
@@ -23,7 +22,8 @@ h1 {
   width: 700px;
   height: 600px;
   overflow: auto;
-  border: 1px solid #009999;
+  border: none;
+  background: #e8fdfa;
 }
 
 .blog-container .blog figure > img {
