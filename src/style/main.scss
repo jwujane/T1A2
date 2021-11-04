@@ -14,12 +14,6 @@ h1,h2,h3 {
     font-weight: bold;
 }
 
-.main {
-    margin: 8vh 0;
-    
-
-}
-
 .nav-header > nav {
     display: flex;
     justify-content: center; /* align item along the main axis */
@@ -44,7 +38,10 @@ nav a:hover {
     color:#99ffff;
 }
 
-
-
+@media screen and (max-width: 1050px) {
+    .nav-header > nav > a {
+        font-size: 1.2m; 
+    }
+}
 
 

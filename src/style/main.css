@@ -2,7 +2,7 @@ body {
   background-color: #ccffff;
 }
 
-section {
+.main-about {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -18,56 +18,76 @@ section {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 5% 0;
+  margin: 20vh 0;
 }
 
-section .profile-pic {
+.main-about .profile-pic img {
   height: 400px;
   width: 300px;
   -webkit-box-shadow: 5px 15px 25px black;
           box-shadow: 5px 15px 25px black;
-  margin: 5%;
+  margin: 5% 2%;
 }
 
-section .about-me {
+.main-about .about-me {
   display: block;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: coloumn;
-          flex-direction: coloumn;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   width: 40%;
   height: 100%;
+  margin: 2% 0 0 5%;
+  font-size: 1em;
 }
 
-section .about-me .greeting {
+.main-about .about-me .greeting {
   text-align: left;
   margin: 0 0 5% 0;
 }
 
-section .about-me .greeting h1 {
+.main-about .about-me .greeting h1 {
   font-size: 200%;
   font-family: Balsamiq Sans, cursive;
   margin: 0 0 5% 0;
 }
 
-section .about-me .greeting article > p {
+.main-about .about-me .greeting article > p {
   margin: 0 0 3% 0;
 }
 
-section .about-me .social {
+.main-about .about-me .social {
   text-align: left;
 }
 
-section .about-me .social .logo {
+.main-about .about-me .social .logo {
   width: 3%;
   height: 3%;
   min-width: 30px;
   min-height: 30px;
   border-radius: 20%;
   margin: 2% 2% 0 0;
+}
+
+@media screen and (max-width: 800px) {
+  .main-about {
+    margin: 10vh 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 1.5em;
+  }
+  .main-about .greeting {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.main-blog {
+  display: block;
 }
 
 .heading {
@@ -96,41 +116,37 @@ h1 {
 
 .blog-container .blog {
   margin: 3%;
-  width: 20%;
+  margin-top: 0;
+  width: 50%;
   height: 30%;
   min-width: 250px;
   max-height: 200px;
-  /*  display: block;
-        overflow: auto;
-        overflow: hidden;
-        text-overflow: ellipsis; */
   border: none;
   background: #e8fdfa;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .blog-container .blog figure > img {
-  width: 60%;
-  height: 70%;
+  width: 20%;
+  height: 20%;
   margin: 3%;
 }
 
 .blog-container .blog h2 {
-  margin: 3%;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
-.blog-container .blog h5, .blog-container .blog p {
-  margin: 3%;
-  font-size: 0.8em;
+.blog-container .blog h5 {
+  margin-left: 3%;
+  font-size: 1em;
 }
 
 @media screen and (max-width: 800px) {
   .blog-container {
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -webkit-box-align: center;
@@ -138,8 +154,8 @@ h1 {
             align-items: center;
   }
   .blog-container .blog {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 80%;
+    max-height: 30%;
   }
 }
 
@@ -154,10 +170,6 @@ h1, h2, h3 {
   font-family: Balsamiq Sans, cursive;
   color: #009999;
   font-weight: bold;
-}
-
-.main {
-  margin: 8vh 0;
 }
 
 .nav-header > nav {
@@ -192,5 +204,11 @@ h1, h2, h3 {
 
 nav a:hover {
   color: #99ffff;
+}
+
+@media screen and (max-width: 1050px) {
+  .nav-header > nav > a {
+    font-size: 1.2m;
+  }
 }
 /*# sourceMappingURL=main.css.map */

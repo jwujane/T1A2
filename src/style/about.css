@@ -2,7 +2,7 @@ body {
   background-color: #ccffff;
 }
 
-section {
+.main-about {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -18,55 +18,71 @@ section {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 5% 0;
+  margin: 20vh 0;
 }
 
-section .profile-pic {
+.main-about .profile-pic img {
   height: 400px;
   width: 300px;
   -webkit-box-shadow: 5px 15px 25px black;
           box-shadow: 5px 15px 25px black;
-  margin: 5%;
+  margin: 5% 2%;
 }
 
-section .about-me {
+.main-about .about-me {
   display: block;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: coloumn;
-          flex-direction: coloumn;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   width: 40%;
   height: 100%;
+  margin: 2% 0 0 5%;
+  font-size: 1em;
 }
 
-section .about-me .greeting {
+.main-about .about-me .greeting {
   text-align: left;
   margin: 0 0 5% 0;
 }
 
-section .about-me .greeting h1 {
+.main-about .about-me .greeting h1 {
   font-size: 200%;
   font-family: Balsamiq Sans, cursive;
   margin: 0 0 5% 0;
 }
 
-section .about-me .greeting article > p {
+.main-about .about-me .greeting article > p {
   margin: 0 0 3% 0;
 }
 
-section .about-me .social {
+.main-about .about-me .social {
   text-align: left;
 }
 
-section .about-me .social .logo {
+.main-about .about-me .social .logo {
   width: 3%;
   height: 3%;
   min-width: 30px;
   min-height: 30px;
   border-radius: 20%;
   margin: 2% 2% 0 0;
+}
+
+@media screen and (max-width: 800px) {
+  .main-about {
+    margin: 10vh 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 1.5em;
+  }
+  .main-about .greeting {
+    width: 100%;
+    height: 100%;
+  }
 }
 /*# sourceMappingURL=about.css.map */
