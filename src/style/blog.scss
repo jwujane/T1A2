@@ -1,6 +1,10 @@
+.heading {
+    margin: 3%;
+}
 
 h1 {
     font-size: 3em;
+    background-color:yellow;
     
 }
 
@@ -9,13 +13,16 @@ h1 {
     justify-content: spcae-between; 
     flex-direction: row;
     flex-wrap: wrap; 
+    background-color: pink;
+    margin: 0;
     
 
     .blog {
-        margin: 2%;
-        width: 700px;
-        height: 600px;
-        overflow: auto;
+        margin: 3%;
+        width: 20%;
+        height: 20%;
+        min-width: 300px;
+        min-height: 50px;
         border: none;
         background:#e8fdfa;
 
@@ -28,6 +35,11 @@ h1 {
 
         h2, h5, p {
             margin: 3%;
+        }
+
+        p {
+            overflow: hidden;
+            text-overflow: elipsis
         }
     }
 }

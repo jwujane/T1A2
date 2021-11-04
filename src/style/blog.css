@@ -1,5 +1,10 @@
+.heading {
+  margin: 3%;
+}
+
 h1 {
   font-size: 3em;
+  background-color: yellow;
 }
 
 .blog-container {
@@ -15,13 +20,16 @@ h1 {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  background-color: pink;
+  margin: 0;
 }
 
 .blog-container .blog {
-  margin: 2%;
-  width: 700px;
-  height: 600px;
-  overflow: auto;
+  margin: 3%;
+  width: 20%;
+  height: 20%;
+  min-width: 300px;
+  min-height: 50px;
   border: none;
   background: #e8fdfa;
 }
@@ -35,5 +43,10 @@ h1 {
 
 .blog-container .blog h2, .blog-container .blog h5, .blog-container .blog p {
   margin: 3%;
+}
+
+.blog-container .blog p {
+  overflow: hidden;
+  text-overflow: elipsis;
 }
 /*# sourceMappingURL=blog.css.map */

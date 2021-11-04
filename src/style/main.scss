@@ -13,24 +13,29 @@ h1,h2,h3 {
     font-weight: bold;
 }
 
+.main {
+    margin: 8vh 0;
+    
+
+}
+
 .nav-header > nav {
-    /* display: block; */
     display: flex;
     justify-content: center; /* align item along the main axis */
     align-items: center; /* align item within the container/ vertically */
     flex-wrap: wrap;
     background-color:#009999;
     height: 8vh;
-    /* position: fixed; 
+    position: fixed; 
     top: 0; 
-    width: 100%; */
+    width: 100%;
    
     a {
         text-decoration: none; /* remove default underline <a> */
         font-size: 120%;
         font-weight: bold;
         color: #ffffff;
-        margin: 0 1%; 
+        margin: 0 3%; 
     }
 }
 
@@ -38,15 +43,9 @@ nav a:hover {
     color:#99ffff;
 }
 
-// @media screen and (max-width: 600px) {
-// a {
-//     direction: block;
-//     justify-content: center;
-//     align-items: center;
-//     flex-direction: column;
-     
 
-// }
+
+
 // }
 
 

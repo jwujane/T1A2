@@ -48,7 +48,7 @@ section .about-me .greeting {
 }
 
 section .about-me .greeting h1 {
-  font-size: xx-large;
+  font-size: 300%;
   font-family: Balsamiq Sans, cursive;
   margin: 0 0 5% 0;
 }
@@ -62,10 +62,10 @@ section .about-me .social {
 }
 
 section .about-me .social .logo {
-  width: 7%;
-  height: 7%;
-  min-width: 50px;
-  min-height: 50px;
+  width: 3%;
+  height: 3%;
+  min-width: 30px;
+  min-height: 30px;
   border-radius: 20%;
   margin: 2% 2% 0 0;
 }

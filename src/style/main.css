@@ -48,7 +48,7 @@ section .about-me .greeting {
 }
 
 section .about-me .greeting h1 {
-  font-size: xx-large;
+  font-size: 300%;
   font-family: Balsamiq Sans, cursive;
   margin: 0 0 5% 0;
 }
@@ -62,16 +62,21 @@ section .about-me .social {
 }
 
 section .about-me .social .logo {
-  width: 7%;
-  height: 7%;
-  min-width: 50px;
-  min-height: 50px;
+  width: 3%;
+  height: 3%;
+  min-width: 30px;
+  min-height: 30px;
   border-radius: 20%;
   margin: 2% 2% 0 0;
 }
 
+.heading {
+  margin: 3%;
+}
+
 h1 {
   font-size: 3em;
+  background-color: yellow;
 }
 
 .blog-container {
@@ -87,13 +92,16 @@ h1 {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  background-color: pink;
+  margin: 0;
 }
 
 .blog-container .blog {
-  margin: 2%;
-  width: 700px;
-  height: 600px;
-  overflow: auto;
+  margin: 3%;
+  width: 20%;
+  height: 20%;
+  min-width: 300px;
+  min-height: 50px;
   border: none;
   background: #e8fdfa;
 }
@@ -109,6 +117,11 @@ h1 {
   margin: 3%;
 }
 
+.blog-container .blog p {
+  overflow: hidden;
+  text-overflow: elipsis;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -121,8 +134,11 @@ h1, h2, h3 {
   font-weight: bold;
 }
 
+.main {
+  margin: 8vh 0;
+}
+
 .nav-header > nav {
-  /* display: block; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -138,9 +154,9 @@ h1, h2, h3 {
       flex-wrap: wrap;
   background-color: #009999;
   height: 8vh;
-  /* position: fixed; 
-    top: 0; 
-    width: 100%; */
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .nav-header > nav a {
@@ -149,7 +165,7 @@ h1, h2, h3 {
   font-size: 120%;
   font-weight: bold;
   color: #ffffff;
-  margin: 0 1%;
+  margin: 0 3%;
 }
 
 nav a:hover {
