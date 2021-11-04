@@ -55,26 +55,29 @@ body {
     }
 }
 
+@mixin FlexCenter-Column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
 
 @media screen and (max-width: 800px) {
     .main-about {
         margin: 10vh 0;
-        display: flex; 
-        flex-direction: column;
-        align-items: center; 
-        font-size: 1.2em;
+        @include FlexCenter-Column;
+        font-size: 1em;
 
         .profile-pic img {
             width: 200px;
             height: 266px;
         }
-
-      /*   .greeting {
-        width: 100%; 
-        height: 100%;
+        .about-me {
+        width: 80%; 
+        height: 100%; 
         }
-    } */
+    } 
 }
-}
+
     
 
