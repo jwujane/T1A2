@@ -1,0 +1,29 @@
+@mixin flexCenter {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+
+.main-post {
+    @include flexCenter;
+    margin: 20vh 0;
+ 
+
+    h1 {
+    font-size: 2em;
+    }
+        
+    .post {
+        @include flexCenter;
+        width: 60%;
+        height: 100%;
+    }
+    
+
+    img {
+        width: 50%;
+        height: 60%;
+        }
+    } 

@@ -1,5 +1,3 @@
-
-
 .main-blog {
     display: flex; 
     flex-direction: column;
@@ -33,7 +31,15 @@ h1 {
         background:#e8fdfa;
         overflow: auto;
 
-        h2 {
+        a {
+            text-decoration: none;
+        } 
+        
+        a:hover {
+            color:#99ffff;
+        }
+
+        a > h2 {
         font-size: 2em;
         margin: 1%;
         }
@@ -45,12 +51,14 @@ h1 {
 
         P {
             margin-left: 1%;
-
         }
     }
 }
 
 
+.blog a:hover {
+    color: yellow;
+}
 
  @media screen and (max-width: 800px) {
 .blog-container {
@@ -59,8 +67,8 @@ h1 {
     align-items: center;
 
     .blog {
-    width: 80%;
+    width: 100%;
     height: 50%;
-} 
-}
+        } 
+    }
 }

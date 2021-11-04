@@ -139,7 +139,15 @@ h1 {
   overflow: auto;
 }
 
-.blog-container .blog h2 {
+.blog-container .blog a {
+  text-decoration: none;
+}
+
+.blog-container .blog a:hover {
+  color: #99ffff;
+}
+
+.blog-container .blog a > h2 {
   font-size: 2em;
   margin: 1%;
 }
@@ -151,6 +159,10 @@ h1 {
 
 .blog-container .blog P {
   margin-left: 1%;
+}
+
+.blog a:hover {
+  color: yellow;
 }
 
 @media screen and (max-width: 800px) {
@@ -166,9 +178,53 @@ h1 {
             align-items: center;
   }
   .blog-container .blog {
-    width: 80%;
+    width: 100%;
     height: 50%;
   }
+}
+
+.main-post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20vh 0;
+}
+
+.main-post h1 {
+  font-size: 2em;
+}
+
+.main-post .post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60%;
+  height: 100%;
+}
+
+.main-post img {
+  width: 50%;
+  height: 60%;
 }
 
 * {
