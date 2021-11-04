@@ -3,8 +3,7 @@
 }
 
 h1 {
-  font-size: 3em;
-  background-color: yellow;
+  font-size: 2em;
 }
 
 .blog-container {
@@ -20,33 +19,55 @@ h1 {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background-color: pink;
   margin: 0;
 }
 
 .blog-container .blog {
   margin: 3%;
   width: 20%;
-  height: 20%;
-  min-width: 300px;
-  min-height: 50px;
+  height: 30%;
+  min-width: 250px;
+  max-height: 200px;
+  display: block;
+  overflow: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
   border: none;
   background: #e8fdfa;
+  overflow: auto;
 }
 
 .blog-container .blog figure > img {
-  width: 50%;
-  height: 50%;
-  display: block;
-  margin: 3% auto;
-}
-
-.blog-container .blog h2, .blog-container .blog h5, .blog-container .blog p {
+  width: 60%;
+  height: 70%;
   margin: 3%;
 }
 
-.blog-container .blog p {
-  overflow: hidden;
-  text-overflow: elipsis;
+.blog-container .blog h2 {
+  margin: 3%;
+  font-size: 1.5em;
+}
+
+.blog-container .blog h5, .blog-container .blog p {
+  margin: 3%;
+  font-size: 0.8em;
+}
+
+@media screen and (max-width: 800px) {
+  .blog-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .blog-container .blog {
+    max-width: 100px;
+    max-height: 100px;
+  }
 }
 /*# sourceMappingURL=blog.css.map */

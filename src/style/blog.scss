@@ -3,9 +3,13 @@
 }
 
 h1 {
-    font-size: 3em;
-    background-color:yellow;
+    font-size: 2em;
     
+}
+
+
+@mixin element-margin {
+    margin: 3%;
 }
 
 .blog-container {
@@ -13,33 +17,38 @@ h1 {
     justify-content: spcae-between; 
     flex-direction: row;
     flex-wrap: wrap; 
-    background-color: pink;
     margin: 0;
     
 
     .blog {
-        margin: 3%;
+        @include element-margin;
         width: 20%;
-        height: 20%;
-        min-width: 300px;
-        min-height: 50px;
+        height: 30%;
+        min-width: 250px;
+        max-height: 200px;
+        display: block;
+        overflow: auto;
+        overflow: hidden;
+        text-overflow: ellipsis;
         border: none;
         background:#e8fdfa;
+        overflow: auto;
+
 
         figure > img {
-            width: 50%;
-            height: 50%;
-            display: block; 
-            margin: 3% auto; 
+            width: 60%;
+            height: 70%;
+            @include element-margin;
         }
 
-        h2, h5, p {
-            margin: 3%;
+        h2 {
+        @include element-margin;
+        font-size: 1.5em;
         }
-
-        p {
-            overflow: hidden;
-            text-overflow: elipsis
+        
+        h5, p {
+            @include element-margin;
+            font-size: 0.8em
         }
     }
 }
@@ -48,10 +57,15 @@ h1 {
 
 
 
+ @media screen and (max-width: 800px) {
+.blog-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
 
-// @media screen and (min-width: 600px) {
-//  .blog {
-//     width: 100px;
-//     height: 400px;
-//  }
-// }
+    .blog {
+    max-width: 100px;
+    max-height: 100px;
+} 
+}
+}
