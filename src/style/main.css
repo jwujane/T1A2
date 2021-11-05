@@ -239,7 +239,7 @@ h1 {
   }
 }
 
-.main-experience {
+.body-experience-container {
   margin: 20vh 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -258,46 +258,66 @@ h1 {
   height: 100%;
 }
 
-.main-experience h1 {
+.main-experience-container {
+  width: 40%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-experience-container h1 {
   font-size: 1.5em;
   margin-bottom: 5vh;
+  text-align: center;
 }
 
-.main-experience .experience-container, .main-experience .education-container, .main-experience .learning-container {
-  width: 50%;
-  height: 100%;
-}
-
-.main-experience .experience-container h2, .main-experience .education-container h2, .main-experience .learning-container h2 {
+.main-experience-container .work-container h2, .main-experience-container .education-container h2, .main-experience-container .learning-container h2 {
   font-size: 1.3em;
   margin: 5% 0;
   text-align: center;
   border: 1px solid #009999;
 }
 
-.main-experience .experience-container h3, .main-experience .education-container h3, .main-experience .learning-container h3 {
+.main-experience-container .work-container h3, .main-experience-container .education-container h3, .main-experience-container .learning-container h3 {
   font-size: 1.2em;
   color: #0fb6b6;
 }
 
-.main-experience .experience-container h5, .main-experience .education-container h5, .main-experience .learning-container h5 {
-  font-size: 0.8em;
+.main-experience-container .work-container h5, .main-experience-container .education-container h5, .main-experience-container .learning-container h5 {
+  font-size: 0.9em;
   font-style: italic;
 }
 
-.main-experience .experience-container h6, .main-experience .education-container h6, .main-experience .learning-container h6 {
-  font-size: 0.8em;
+.main-experience-container .work-container h6, .main-experience-container .education-container h6, .main-experience-container .learning-container h6 {
+  font-size: 0.9em;
   margin-bottom: 1.5%;
 }
 
-.main-experience .experience-container p, .main-experience .education-container p, .main-experience .learning-container p {
+.main-experience-container .work-container p, .main-experience-container .education-container p, .main-experience-container .learning-container p {
   margin-bottom: 3%;
 }
 
 @media screen and (max-width: 1025px) {
-  .experience-container, .main-experience .education-container, .main-experience .learning-container, .education-container, .learning-container {
+  .main-experience-container {
     width: 70%;
     height: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .work-container p, .main-experience-container .education-container p, .main-experience-container .learning-container p {
+    margin-bottom: 10%;
   }
 }
 
