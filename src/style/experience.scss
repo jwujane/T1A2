@@ -14,6 +14,7 @@
 
     h1 {
         font-size: 1.5em; 
+        margin-bottom: 5vh;
     }
 
     .experience-container {
@@ -22,11 +23,14 @@
     
         h2 {
             font-size: 1.3em;
-            margin: 3% 0;
+            margin: 5% 0; 
+            text-align: center;
+            border: 1px solid #009999; 
         }
 
         h3 {
-            font-size: 1.2em;  
+            font-size: 1.2em;
+            color: #0fb6b6;  
         }
 
         h5 {
@@ -46,31 +50,18 @@
     }
 
     .education-container {
-        width: 50%; 
-        height: 100%;
-    
-        h2 {
-            font-size: 1.3em;
-            margin: 3% 0;
-        }
+        @extend .experience-container; 
+    }
 
-        h3 {
-            font-size: 1.2em;  
-        }
-
-        h5 {
-            font-size: 0.8em; 
-            font-style: italic;
-        }
-
-        h6 {
-            font-size: 0.8em; 
-            margin-bottom: 1.5%; 
-        }
-
-        p {
-            margin-bottom: 3%; 
-
-        }
+    .learning-container {
+        @extend .experience-container; 
     }
 }
+
+@media screen and (max-width: 1025px) {
+    .experience-container, .education-container, .learning-container {
+        width: 70%;
+        height: 100%;
+    } 
+}
+    

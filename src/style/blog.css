@@ -17,7 +17,7 @@
 
 h1 {
   font-size: 1.5em;
-  margin-bottom: 8vh;
+  margin-bottom: 5vh;
 }
 
 .blog-container {
@@ -36,7 +36,7 @@ h1 {
 }
 
 .blog-container .blog {
-  margin: 1.5%;
+  margin: 3%;
   padding: 1%;
   width: 100%;
   height: 120px;
@@ -64,7 +64,7 @@ h1 {
   margin-left: 1%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1025px) {
   .blog-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

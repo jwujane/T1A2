@@ -116,7 +116,7 @@ body {
 
 h1 {
   font-size: 1.5em;
-  margin-bottom: 8vh;
+  margin-bottom: 5vh;
 }
 
 .blog-container {
@@ -135,7 +135,7 @@ h1 {
 }
 
 .blog-container .blog {
-  margin: 1.5%;
+  margin: 3%;
   padding: 1%;
   width: 100%;
   height: 120px;
@@ -163,7 +163,7 @@ h1 {
   margin-left: 1%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1025px) {
   .blog-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -260,62 +260,45 @@ h1 {
 
 .main-experience h1 {
   font-size: 1.5em;
+  margin-bottom: 5vh;
 }
 
-.main-experience .experience-container {
+.main-experience .experience-container, .main-experience .education-container, .main-experience .learning-container {
   width: 50%;
   height: 100%;
 }
 
-.main-experience .experience-container h2 {
+.main-experience .experience-container h2, .main-experience .education-container h2, .main-experience .learning-container h2 {
   font-size: 1.3em;
-  margin: 3% 0;
+  margin: 5% 0;
+  text-align: center;
+  border: 1px solid #009999;
 }
 
-.main-experience .experience-container h3 {
+.main-experience .experience-container h3, .main-experience .education-container h3, .main-experience .learning-container h3 {
   font-size: 1.2em;
+  color: #0fb6b6;
 }
 
-.main-experience .experience-container h5 {
+.main-experience .experience-container h5, .main-experience .education-container h5, .main-experience .learning-container h5 {
   font-size: 0.8em;
   font-style: italic;
 }
 
-.main-experience .experience-container h6 {
+.main-experience .experience-container h6, .main-experience .education-container h6, .main-experience .learning-container h6 {
   font-size: 0.8em;
   margin-bottom: 1.5%;
 }
 
-.main-experience .experience-container p {
+.main-experience .experience-container p, .main-experience .education-container p, .main-experience .learning-container p {
   margin-bottom: 3%;
 }
 
-.main-experience .education-container {
-  width: 50%;
-  height: 100%;
-}
-
-.main-experience .education-container h2 {
-  font-size: 1.3em;
-  margin: 3% 0;
-}
-
-.main-experience .education-container h3 {
-  font-size: 1.2em;
-}
-
-.main-experience .education-container h5 {
-  font-size: 0.8em;
-  font-style: italic;
-}
-
-.main-experience .education-container h6 {
-  font-size: 0.8em;
-  margin-bottom: 1.5%;
-}
-
-.main-experience .education-container p {
-  margin-bottom: 3%;
+@media screen and (max-width: 1025px) {
+  .experience-container, .main-experience .education-container, .main-experience .learning-container, .education-container, .learning-container {
+    width: 70%;
+    height: 100%;
+  }
 }
 
 * {
