@@ -16,8 +16,9 @@ h1,h2,h3 {
     font-weight: bold;
 }
 
-.nav-header > nav {
+.navbar > nav {
     display: flex;
+    flex-direction: row;
     justify-content: center; /* align item along the main axis */
     align-items: center; /* align item within the container/ vertically */
     flex-wrap: wrap;
@@ -40,11 +41,5 @@ nav a:hover {
     color:#99ffff;
 }
 
-@media screen and (max-width: 1050px) {
-    .nav-header > nav > a {
-        font-size: 1.2m; 
-    }
-
-}
 
 
