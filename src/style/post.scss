@@ -5,25 +5,56 @@
     align-items: center;
 }
 
+@mixin margin-bottom {
+    margin-bottom: 1.5%
+}
+
+
 
 .main-post {
     @include flexCenter;
     margin: 20vh 0;
- 
-
+    
     h1 {
     font-size: 2em;
+    @include margin-bottom; 
     }
-        
-    .post {
-        @include flexCenter;
-        width: 60%;
-        height: 100%;
-    }
-    
 
     img {
+        width: 30%;
+        height: 40%;
+        @include margin-bottom
+        }  
+
+    .post {
         width: 50%;
-        height: 60%;
+        height: 100%;
+  
+        h5 {
+            font-size: 0.75em;
+            @include margin-bottom;
+            text-align: left; 
+            font-style: italic;
         }
-    } 
+    }
+} 
+
+@media screen and (max-width: 1025px) {
+    .main-post {
+        margin: 15vh 0; 
+    }
+    .main-post > .post {
+         width: 80%; 
+         height: 100%; 
+    }
+
+    .post > h5 {
+        margin: 2vh 0; 
+    }
+
+    .main-post > img {
+        min-width: 60%; 
+        min-height: 30%;
+        margin: 3vh 0;
+    }
+}
