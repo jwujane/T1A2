@@ -1,7 +1,7 @@
-@import ".style/about";
-@import ".style/blog";
-@import ".style/post";
-@import ".style/experience";
+@import "about";
+@import "blog";
+@import "post";
+@import "experience";
 
 * {
     margin: 0;
@@ -42,4 +42,10 @@ nav a:hover {
 }
 
 
+a:visited {
+    color: rgb(34, 54, 54); 
+}
 
+a:hover {
+    color:rgb(223, 226, 36); 
+}

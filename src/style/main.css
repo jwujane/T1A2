@@ -282,6 +282,11 @@ h1 {
   text-align: center;
 }
 
+.main-experience-container p {
+  color: #2a8a8a;
+  font-size: smaller;
+}
+
 .main-experience-container .work-container h2, .main-experience-container .education-container h2, .main-experience-container .learning-container h2 {
   font-size: 1.3em;
   margin: 5% 0;
@@ -297,15 +302,18 @@ h1 {
 .main-experience-container .work-container h5, .main-experience-container .education-container h5, .main-experience-container .learning-container h5 {
   font-size: 0.9em;
   font-style: italic;
+  color: #223636;
 }
 
 .main-experience-container .work-container h6, .main-experience-container .education-container h6, .main-experience-container .learning-container h6 {
   font-size: 0.9em;
   margin-bottom: 1.5%;
+  color: #223636;
 }
 
 .main-experience-container .work-container p, .main-experience-container .education-container p, .main-experience-container .learning-container p {
   margin-bottom: 3%;
+  color: black;
 }
 
 @media screen and (max-width: 1025px) {
@@ -370,5 +378,13 @@ h1, h2, h3 {
 
 nav a:hover {
   color: #99ffff;
+}
+
+a:visited {
+  color: #223636;
+}
+
+a:hover {
+  color: #dfe224;
 }
 /*# sourceMappingURL=main.css.map */
