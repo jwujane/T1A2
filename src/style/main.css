@@ -48,7 +48,7 @@ body {
   margin: 0 0 5% 0;
 }
 
-.main-about .about-me .greeting article > p {
+.main-about .about-me .greeting p {
   margin: 0 0 3% 0;
 }
 
@@ -381,7 +381,7 @@ nav a:hover {
 }
 
 a:visited {
-  color: #223636;
+  color: #26a3a3;
 }
 
 a:hover {
