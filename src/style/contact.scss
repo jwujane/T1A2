@@ -29,14 +29,15 @@
 }
 
 .social {
-    @include flexCenter(center);
-    
+    text-align: center;
+    text-decoration: none;  
+
         .logo {
-            width: 3%;
-            height: 3%;
-            min-width: 30px;
-            min-height: 30px;
+            width: 10%;
+            height: 10%;
+            min-width: 45px;
+            min-height: 45px;
             border-radius: 20%;
-            margin: 2% 2% 0 0;
-            }
+            margin: 0 2% 4% 2%;
+        }
 }

@@ -5,7 +5,7 @@ body {
 .main-about {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: row; 
     flex-wrap: wrap;
     margin: 20vh 0;
@@ -35,7 +35,7 @@ body {
             }
 
             h6 {
-                margin: 0 0 7% 0;
+                margin: 0 0 3% 0;
                 color: #009999;
             }
 
