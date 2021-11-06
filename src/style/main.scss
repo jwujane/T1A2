@@ -2,6 +2,7 @@
 @import "blog";
 @import "post";
 @import "experience";
+@import "contact";
 
 * {
     margin: 0;
@@ -14,6 +15,11 @@ h1,h2,h3 {
     font-family: Balsamiq Sans, cursive;
     color: #009999;
     font-weight: bold;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 5vh;
 }
 
 .navbar > nav {

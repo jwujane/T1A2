@@ -35,12 +35,6 @@
           align-items: center;
 }
 
-.main-experience-container h1 {
-  font-size: 1.5em;
-  margin-bottom: 5vh;
-  text-align: center;
-}
-
 .main-experience-container p {
   color: #2a8a8a;
   font-size: smaller;

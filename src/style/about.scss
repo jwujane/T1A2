@@ -31,7 +31,12 @@ body {
             h1 {
                 font-size: 200%;
                 font-family: Balsamiq Sans, cursive;
-                 margin: 0 0 5% 0;
+                margin: 0;
+            }
+
+            h6 {
+                margin: 0 0 7% 0;
+                color: #009999;
             }
 
             p {
@@ -55,18 +60,14 @@ body {
 }
 
 
-@mixin FlexCenter-Column {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;  
-}
-
 @media screen and (max-width: 800px) {
     .main-about {
         margin: 10vh 0;
-        @include FlexCenter-Column;
         font-size: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
 
         .profile-pic img {
             width: 200px;
@@ -76,7 +77,7 @@ body {
         width: 80%; 
         height: 100%; 
 
-        .greeting h1 {
+        .greeting h1,h6 {
             text-align: center;
             margin-right: 2%;
             }

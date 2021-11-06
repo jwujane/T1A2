@@ -45,7 +45,12 @@ body {
 .main-about .about-me .greeting h1 {
   font-size: 200%;
   font-family: Balsamiq Sans, cursive;
-  margin: 0 0 5% 0;
+  margin: 0;
+}
+
+.main-about .about-me .greeting h6 {
+  margin: 0 0 7% 0;
+  color: #009999;
 }
 
 .main-about .about-me .greeting p {
@@ -68,6 +73,7 @@ body {
 @media screen and (max-width: 800px) {
   .main-about {
     margin: 10vh 0;
+    font-size: 1em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -81,7 +87,6 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    font-size: 1em;
   }
   .main-about .profile-pic img {
     width: 200px;
@@ -91,7 +96,7 @@ body {
     width: 80%;
     height: 100%;
   }
-  .main-about .about-me .greeting h1 {
+  .main-about .about-me .greeting h1, .main-about .about-me h6 {
     text-align: center;
     margin-right: 2%;
   }
