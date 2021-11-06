@@ -61,17 +61,17 @@
 .main-experience-container .work-container h5, .main-experience-container .education-container h5, .main-experience-container .learning-container h5 {
   font-size: 0.9em;
   font-style: italic;
-  color: #223636;
+  color: #375757;
 }
 
 .main-experience-container .work-container h6, .main-experience-container .education-container h6, .main-experience-container .learning-container h6 {
   font-size: 0.9em;
   margin-bottom: 1.5%;
-  color: #223636;
+  color: #375757;
 }
 
 .main-experience-container .work-container p, .main-experience-container .education-container p, .main-experience-container .learning-container p {
-  margin-bottom: 3%;
+  margin-bottom: 3vh;
   color: black;
 }
 
@@ -79,12 +79,6 @@
   .main-experience-container {
     width: 70%;
     height: 100%;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .work-container p, .main-experience-container .education-container p, .main-experience-container .learning-container p {
-    margin-bottom: 10%;
   }
 }
 /*# sourceMappingURL=experience.css.map */

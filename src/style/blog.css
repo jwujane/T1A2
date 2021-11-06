@@ -43,7 +43,7 @@ h1 {
   max-width: 400px;
   border: none;
   background: #e8fdfa;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .blog-container .blog a {
@@ -62,6 +62,10 @@ h1 {
 
 .blog-container .blog P {
   margin-left: 1%;
+}
+
+.blog a:hover {
+  font-size: 1.5em;
 }
 
 @media screen and (max-width: 1025px) {

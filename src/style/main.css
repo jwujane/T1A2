@@ -142,7 +142,7 @@ h1 {
   max-width: 400px;
   border: none;
   background: #e8fdfa;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .blog-container .blog a {
@@ -161,6 +161,10 @@ h1 {
 
 .blog-container .blog P {
   margin-left: 1%;
+}
+
+.blog a:hover {
+  font-size: 1.5em;
 }
 
 @media screen and (max-width: 1025px) {
@@ -302,17 +306,17 @@ h1 {
 .main-experience-container .work-container h5, .main-experience-container .education-container h5, .main-experience-container .learning-container h5 {
   font-size: 0.9em;
   font-style: italic;
-  color: #223636;
+  color: #375757;
 }
 
 .main-experience-container .work-container h6, .main-experience-container .education-container h6, .main-experience-container .learning-container h6 {
   font-size: 0.9em;
   margin-bottom: 1.5%;
-  color: #223636;
+  color: #375757;
 }
 
 .main-experience-container .work-container p, .main-experience-container .education-container p, .main-experience-container .learning-container p {
-  margin-bottom: 3%;
+  margin-bottom: 3vh;
   color: black;
 }
 
@@ -320,12 +324,6 @@ h1 {
   .main-experience-container {
     width: 70%;
     height: 100%;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .work-container p, .main-experience-container .education-container p, .main-experience-container .learning-container p {
-    margin-bottom: 10%;
   }
 }
 
@@ -380,8 +378,12 @@ nav a:hover {
   color: #99ffff;
 }
 
+a:link {
+  color: #7a5dbe;
+}
+
 a:visited {
-  color: #26a3a3;
+  color: #a32e26;
 }
 
 a:hover {

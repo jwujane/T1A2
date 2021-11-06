@@ -15,7 +15,7 @@
 .main-experience-container {
         width: 40%; 
         height: 100%;
-        @include flexCenter
+        @include flexCenter;
     h1 {
         font-size: 1.5em; 
         margin-bottom: 5vh;
@@ -44,17 +44,17 @@
         h5 {
             font-size: 0.9em; 
             font-style: italic;
-            color: rgb(34, 54, 54);
+            color:rgb(55, 87, 87);
         }
 
         h6 {
             font-size: 0.9em; 
             margin-bottom: 1.5%; 
-            color: rgb(34, 54, 54);
+            color: rgb(55, 87, 87);
         }
 
         p {
-            margin-bottom: 3%; 
+            margin-bottom: 3vh; 
             color: black;
         }
     }
@@ -77,19 +77,3 @@
     }
 }
 
-@media screen and (max-width: 700px) {
-    .work-container p { 
-        margin-bottom: 10%; 
-    }
-}
-
-
-
-
-// .main-experience-container a:visited {
-//     color: rgb(34, 54, 54); 
-// }
-
-// .main-experience-container a:hover {
-//     color:rgb(223, 226, 36); 
-// }
