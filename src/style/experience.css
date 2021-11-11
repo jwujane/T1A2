@@ -40,6 +40,10 @@
   font-size: smaller;
 }
 
+.main-experience-container .work-container, .main-experience-container .education-container, .main-experience-container .learning-container {
+  width: 100%;
+}
+
 .main-experience-container .work-container h2, .main-experience-container .education-container h2, .main-experience-container .learning-container h2 {
   font-size: 1.3em;
   margin: 5% 0;

@@ -1,7 +1,3 @@
-body {
-  background-color: #ccffff;
-}
-
 .main-about {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -49,7 +45,7 @@ body {
 }
 
 .main-about .about-me .greeting h6 {
-  margin: 0 0 5% 0;
+  margin: 0 0 3% 0;
   color: #009999;
 }
 
@@ -285,6 +281,10 @@ body {
   font-size: smaller;
 }
 
+.main-experience-container .work-container, .main-experience-container .education-container, .main-experience-container .learning-container {
+  width: 100%;
+}
+
 .main-experience-container .work-container h2, .main-experience-container .education-container h2, .main-experience-container .learning-container h2 {
   font-size: 1.3em;
   margin: 5% 0;
@@ -387,6 +387,10 @@ body {
   padding: 0;
   font-family: Open Sans, sans-serif;
   font-size: 100%;
+}
+
+body {
+  background-color: #ccffff;
 }
 
 h1, h2, h3 {
