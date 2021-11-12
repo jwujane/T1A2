@@ -1,3 +1,5 @@
+
+/* parent of all content */
 .main-blog {
     display: flex; 
     flex-direction: column;
@@ -6,20 +8,14 @@
     margin: 20vh 0;
 }
 
-
-// h1 {
-//     font-size: 1.5em;
-//     margin-bottom: 5vh;
-// }
-
-
-.blog-container {
+/* parent of all blog posts */
+.blog-container { 
     display: flex; 
     justify-content: center; 
     flex-direction: row;
     flex-wrap: wrap; 
     
-
+/* individual blog post */
     .blog {
         margin: 3%;
         padding: 1%;

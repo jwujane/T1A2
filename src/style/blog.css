@@ -1,3 +1,4 @@
+/* parent of all content */
 .main-blog {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -15,6 +16,7 @@
   margin: 20vh 0;
 }
 
+/* parent of all blog posts */
 .blog-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -28,6 +30,7 @@
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  /* individual blog post */
 }
 
 .blog-container .blog {

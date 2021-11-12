@@ -1,3 +1,4 @@
+/* parent of all content */
 .main-contact {
   margin: 20vh 0;
   display: -webkit-box;
@@ -45,6 +46,7 @@
   height: 100%;
 }
 
+/* contains links to social accounts */
 .social {
   text-align: center;
   text-decoration: none;

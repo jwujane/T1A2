@@ -1,3 +1,4 @@
+/* parent of all content of a blog post */
 .main-post {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -1,3 +1,4 @@
+/* parent of all visual content */
 .main-about {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -15,6 +16,7 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: 20vh 0;
+  /* parent of all text content */
 }
 
 .main-about .profile-pic img {
@@ -98,6 +100,7 @@
   }
 }
 
+/* parent of all content */
 .main-blog {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -115,6 +118,7 @@
   margin: 20vh 0;
 }
 
+/* parent of all blog posts */
 .blog-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -128,6 +132,7 @@
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  /* individual blog post */
 }
 
 .blog-container .blog {
@@ -181,6 +186,7 @@
   }
 }
 
+/* parent of all content of a blog post */
 .main-post {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -239,6 +245,7 @@
   }
 }
 
+/* body of all content, excluding nav bar*/
 .body-experience-container {
   margin: 20vh 0;
   display: -webkit-box;
@@ -258,6 +265,7 @@
   height: 100%;
 }
 
+/* parent of visual content */
 .main-experience-container {
   width: 40%;
   height: 100%;
@@ -321,6 +329,7 @@
   }
 }
 
+/* parent of all content */
 .main-contact {
   margin: 20vh 0;
   display: -webkit-box;
@@ -368,6 +377,7 @@
   height: 100%;
 }
 
+/* contains links to social accounts */
 .social {
   text-align: center;
   text-decoration: none;
@@ -382,6 +392,7 @@
   margin: 0 2% 4% 2%;
 }
 
+/* style elements used across all html page - heading, navbar, background color, text style*/
 * {
   margin: 0;
   padding: 0;
