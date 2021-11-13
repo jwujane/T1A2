@@ -48,7 +48,7 @@ The website consists of 5 main html pages which can be navigated from the naviga
 
 - **Portfolio** - showcase of works related to web and software development. Currenlty a placeholder.
 
-![portfolio](./docs/Portfolio.png "wireframe of Portfolio page")
+![portfolio](./docs/portfolio.png "wireframe of Portfolio page")
 
 - **Blog** - contains all blog posts; title of the blog post, date published and brief content of the post.
 
