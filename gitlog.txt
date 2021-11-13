@@ -1,0 +1,185 @@
+commit cd9300d6b481f7c6b66ca0ac685a4fc75a1ce053
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Sat Nov 13 18:03:10 2021 +1100
+
+    Add README.md
+
+commit 21048bee72ab6d7f00fd48c29fa25527bbc5121c
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Sat Nov 13 15:25:17 2021 +1100
+
+    Add SRI to main.css on all html pages
+
+commit 286bb0347d5ff469e65235ebbb6e362d33c9f997
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Sat Nov 13 10:15:34 2021 +1100
+
+    Add comments to html and scss files
+
+commit 56207540a9ff7cfc421718ef7d17470558fa90ca
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Fri Nov 12 11:49:01 2021 +1100
+
+    Correct spelling on About page
+
+commit a8747df8c6cbbdafe54059ff9c9fa41e5980f982
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Thu Nov 11 21:33:49 2021 +1100
+
+    Change experience content and debug width to self-learning section
+
+commit e348a3d31fde4791d07193c33570f3d23e518585
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Sat Nov 6 23:33:23 2021 +1100
+
+    Add style to contact.html
+
+commit 0a1a8ec00c279461c76a6ffdb8e89f5bafad20f8
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Sat Nov 6 22:29:55 2021 +1100
+
+    Add contact.html
+
+commit 80f099bd04931821f46b6548c2350198852f699f
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Sat Nov 6 17:46:22 2021 +1100
+
+    Change about.html to index.html
+
+commit edfa9a58838e95b2b99c76eb232555b9712ec112
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Sat Nov 6 17:44:43 2021 +1100
+
+    Change index.html to about.html
+
+commit 5036ab64265a5388ab074568b8d8337a6d783686
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Sat Nov 6 17:42:06 2021 +1100
+
+    Add hover effect to Blog.html
+
+commit bc289101c7e57b9c0f8c438c201ffbdffa7c1d9e
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Sat Nov 6 15:50:18 2021 +1100
+
+    Adjust <a> effect
+
+commit cad278b05d069aa947b29721a19ae197b8aa8cda
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Sat Nov 6 15:44:15 2021 +1100
+
+    Change <a> effect
+
+commit a136eb1991cf3f971df55b87892d8aeab6c30e2e
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Sat Nov 6 13:16:11 2021 +1100
+
+    Move index.html to src and change links to other html files
+
+commit b2696f5532dd801b072cff2c892b439e1b055cf5
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Sat Nov 6 12:47:53 2021 +1100
+
+    Change path to other html fiels on index.html
+
+commit 1c498d3e8a9a43da89429a96b27800ffa73fe8c4
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Sat Nov 6 11:56:27 2021 +1100
+
+    Add link to mockup resume on experience.html
+
+commit 1fc50256e0b4c552f5f775288a2974defbe9b3c1
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Sat Nov 6 11:49:01 2021 +1100
+
+    Change about.html to index.html
+
+commit 9e10fd3b0b589e24be58e2dfc388ad6f13fa42da
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Sat Nov 6 10:35:46 2021 +1100
+
+    Fixed media query to experience page
+
+commit 97830c986fdb846bb077a6ee768f63d5f449e7cb
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Fri Nov 5 23:15:07 2021 +1100
+
+    Add media query to experience page
+
+commit 473f4fbaf62a97ec5935e05c44e81b4e25a36b5a
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Fri Nov 5 17:33:00 2021 +1100
+
+    Add stye to experience.html
+
+commit 68312ae85855332b9673bd6e0d9c43dad573116a
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Fri Nov 5 14:27:55 2021 +1100
+
+    Add content to experience.html
+
+commit 1e43dcbe4a83bba886aefc8991915d9bb85a940f
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Fri Nov 5 11:20:20 2021 +1100
+
+    Update blog posts
+
+commit 9d5ac48fbd9c6df05677a3d8d77c8d7f8b2e5756
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Fri Nov 5 09:22:29 2021 +1100
+
+    Fixed about.html display for small screen
+
+commit c6439703027e22c1902e5fb87514c7683c0d01d9
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Thu Nov 4 23:09:43 2021 +1100
+
+    Add 6 blog posts in seperate html pages
+
+commit 9e1d074eeca9583a1c868a2228717625923a8f22
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Thu Nov 4 19:13:02 2021 +1100
+
+    Change to blog.html responsive design
+
+commit ff3dc3b35bfb6c99806b5cc18387b84cb10da13f
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Thu Nov 4 18:00:34 2021 +1100
+
+    Draft about.html responsive design
+
+commit a5c59c0ddb9a393de35a27e559344a0a3ca87b4a
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Thu Nov 4 15:27:32 2021 +1100
+
+    Adjust Style of blog.html
+
+commit b3227ad618e8e72e9f30341a8bda8317406407ef
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Thu Nov 4 12:25:17 2021 +1100
+
+    Adjust blog margin
+
+commit 47cd352cc7e04ae9da4ed1588d0651ba7293dfa9
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Sun Oct 31 17:55:03 2021 +1100
+
+    Amend blog content
+
+commit 2b6a529c8a410fb07b37ac4eeb2d9d54a80afc2a
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Sat Oct 30 22:45:59 2021 +1100
+
+    add blog content
+
+commit c132627e7139d4c8058c3c6bcac586462e6489f9
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Sat Oct 30 17:38:07 2021 +1100
+
+    remove draft bg, add pages
+
+commit c59e4bfd197a4c7cdf6579cbc7378164e9faaaaa
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Sat Oct 30 16:54:37 2021 +1100
+
+    first commit
