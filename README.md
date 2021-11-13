@@ -40,7 +40,7 @@ The website consists of 5 main html pages which can be navigated from the naviga
 
 ![aboutme](./docs/About-final-side.PNG "deployed About Me page")
 
-- **My Journey** - contains Contains list of education and work experience, links to PDF resume.
+- **My Journey** - contains list of education and work experience, links to PDF resume.
 
 ![MyJouney](./docs/MyJourney.png "wireframe of My Journey page")
 

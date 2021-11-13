@@ -1,3 +1,33 @@
+commit 168b501cb6446026e2da3ff6fb38b2d16f655517
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Sat Nov 13 19:12:29 2021 +1100
+
+    Fixing issue linking img - changed from Portfolio to portfolio
+
+commit 548b0ef20fe2227c873de7076a2f94eb4c5cd715
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Sat Nov 13 19:06:10 2021 +1100
+
+    Fixing issue linking img for Portfolio section in README
+
+commit 8475e3efefa6a9757e1b8acf2a8b2207be5630ac
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Sat Nov 13 18:17:32 2021 +1100
+
+    Fixing issue linking imgs for Contact and Portfolio on README file
+
+commit 0c1e8363cc09419a11c6df66ef11c86b228a52c7
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Sat Nov 13 18:15:04 2021 +1100
+
+    Fixing issue linking imgs with README file
+
+commit 1fb75da2f6d27be84e0b954f846339d5de0a98bc
+Author: jwujane <jenjirawu28@gmail.com>
+Date:   Sat Nov 13 18:09:21 2021 +1100
+
+    Edit README.md - issue with linking imgs
+
 commit cd9300d6b481f7c6b66ca0ac685a4fc75a1ce053
 Author: jwujane <jenjirawu28@gmail.com>
 Date:   Sat Nov 13 18:03:10 2021 +1100
