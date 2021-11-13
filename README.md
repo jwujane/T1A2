@@ -66,4 +66,4 @@ The website consists of 5 main html pages which can be navigated from the naviga
 
 ![contact](./docs/Contact.png "wireframe of Contact page")
 
-![contact](./docs/Contact-final-side.png "deployed Contact page")
+![contact](./docs/Contact-final-side.PNG "deployed Contact page")
