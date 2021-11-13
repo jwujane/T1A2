@@ -1,4 +1,4 @@
-# Jenjira Wu's Portfolio Website
+# Jane Wu's Portfolio Website
 
 ## URL to the published website
 
@@ -38,13 +38,13 @@ The website consists of 5 main html pages which can be navigated from the naviga
 
 ![aboutme](./docs/About.png "wireframe of About Me page")
 
-![aboutme](./docs/About-final-side.png "deployed About Me page")
+![aboutme](./docs/About-final-side.PNG "deployed About Me page")
 
 - **My Journey** - contains Contains list of education and work experience, links to PDF resume.
 
 ![MyJouney](./docs/MyJourney.png "wireframe of My Journey page")
 
-![MyJouney](./docs/MyJourney-final-side.png "deployed My Journey page")
+![MyJouney](./docs/MyJourney-final-side.PNG "deployed My Journey page")
 
 - **Portfolio** - showcase of works related to web and software development. Currenlty a placeholder.
 
@@ -54,13 +54,13 @@ The website consists of 5 main html pages which can be navigated from the naviga
 
 ![blog](./docs/Blog.png "wireframe of Blog page")
 
-![blog](./docs/Blog-final-side.png "deployed Blog page")
+![blog](./docs/Blog-final-side.PNG "deployed Blog page")
 
 - **Blog Post** - sits inside Blog page, contains text and graphic content of an individual blog.
 
-![blogpost](./docs/Blogpost.png "wireframe of Blog Post page")
+![blogpost](./docs/BlogPost.png "wireframe of Blog Post page")
 
-![blogpost](./docs/Blogpost-final-side.png "deployed Blog Post page")
+![blogpost](./docs/BlogPost-final-side.PNG "deployed Blog Post page")
 
 - **Contact** - contains links to social accounts and form section for direct messages.
 
